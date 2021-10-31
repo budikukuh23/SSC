@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:src="@drawable/asrs2"
+        android:layout_width="320dp"
+        android:layout_height="260dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/splashImage"
+        android:fontFamily="@font/elephant"
+        android:textSize="30dp"
+        android:text="ASRS"
+        android:textColor="@color/white"
+        android:id="@+id/teks1"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teks1"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/segoe_ui"
+        android:text="Automatic Storage &amp; Retrieval System\nbased on QR Code"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</LinearLayout>

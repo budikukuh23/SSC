@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuMpsActivity">
+
+    <RelativeLayout
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/backBtn"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="999dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/transparan"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:src="@drawable/left_50px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/backBtn"
+            android:text="Teknologi Otomatisasi dengan MPS®"
+            android:textStyle="bold"
+            android:fontFamily="@font/segoe_ui"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageMps1"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="15sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Solusi pelatihan untuk mekatronik dan otomatisasi pabrik.\n"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:text="Teknologi otomasi, Industri 4.0/Industrial Internet of Things, digitalisasi – menghadapi tantangan, lingkungan kerja baru setiap hari. MPS mempersiapkan Anda untuk tantangan ini dengan generasi ke-4 dari sistem produksi modular. Dari dasar-dasar teknologi hingga hubungan kompleks dalam otomasi industri, MPS® mencakup berbagai subjek dan teknologi.\n"
+                android:textStyle="normal"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:text="Ini dirancang untuk semua orang yang menghargai pendidikan dan pelatihan mandiri yang berorientasi industri dalam mekatronik dan teknologi otomasi, dan menghargai peralatan yang tahan lama dan kokoh.\n"
+                android:textStyle="normal"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Dari modul tunggal hingga sistem lengkap"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="normal"
+                android:text="Modularitas sistem yang fleksibel memungkinkan Anda menggabungkan stasiun, modul, dan aksesoris untuk membuat lini produksi yang disesuaikan dengan tujuan dan skenario pembelajaran tertentu.\n"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="normal"
+                android:text="Sistem tumbuh dengan kebutuhan Anda dan terus berkembang, menjadikannya investasi masa depan.\n"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageMps2"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="15sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Program pelatihan berbasis industri – praktis dan memotivasi\n"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="normal"
+                android:text="Platform MPS® dirancang untuk pelatihan praktis dan langsung serta memberikan relevansi industri maksimum untuk sistem otomatisasi dan penanganan khusus.\n"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="normal"
+                android:text="Berbagai produk berbasis luas, termasuk perangkat keras, perangkat lunak (simulasi), media pelatihan berbasis web, dan kurikulum yang komprehensif, juga tersedia.\n"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="15sp"
+                android:layout_marginLeft="16dp"
+                android:text="Membina keterampilan dan pengembangan pengetahuan\n"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="normal"
+                android:text="Dengan menghubungkan alat dan sumber pembelajaran, Anda dapat menciptakan lingkungan belajar yang ideal untuk pelatihan mekatronik dan otomatisasi pabrik.\n"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
