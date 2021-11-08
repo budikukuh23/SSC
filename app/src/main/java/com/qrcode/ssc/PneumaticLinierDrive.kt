@@ -7,22 +7,21 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_vacuum_generator.*
+import kotlinx.android.synthetic.main.activity_vacuum_filter.*
 import java.util.*
 
-class VacuumGenerator : AppCompatActivity() {
+class PneumaticLinierDrive : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_vacuum_generator)
+        setContentView(R.layout.activity_pneumatic_liniear_driver)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20generator%2Fvacuum_generator1.jpg?alt=media&token=0c1081a3-6b93-43c1-825b-98c40f50f8f5",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20generator%2Fvacuum_generator2.jpg?alt=media&token=64d04c30-c0ab-4fa7-aa11-b229d3f52e6d",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20generator%2Fvacuum_generator3.jpg?alt=media&token=b1a47a19-71d6-48ae-9d6f-66eed10c065b"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2F4.%20Pneumatic%20Liniear%20Drive%20%5B1%5D.jpg?alt=media&token=2233d9d8-9c26-47c2-a184-ed00923f3098",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2F5.%20Pneumatic%20Liniear%20Drive%20%5B2%5D.jpg?alt=media&token=6d3b9dc8-d093-4085-a1cd-ad2028a9c49c"
         )
 
         createSlider(images)

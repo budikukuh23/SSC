@@ -37,16 +37,16 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:layout_marginLeft="10dp"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/backBtn"
-            android:text="D-Static"
-            android:textStyle="bold"
-            android:fontFamily="@font/segoe_ui"
-            android:textSize="20sp"
-            android:textColor="@color/white"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/backBtn"
+            android:fontFamily="@font/segoe_ui"
+            android:text="ASRS"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -121,7 +121,7 @@
                         android:textStyle="normal"
                         android:textColor="@color/black"
                         android:layout_marginTop="8dp"
-                        android:text="Saat pandemi, ASRS diharapkan dapat mendorong mahasiswa untuk dapat bertahan, bangkit, dan mengembangkan ilmu pengetahuannya melalui adopsi digital.\n"
+                        android:text="Membantu mahasiswa untuk menumbuhkan motivasi dalam mencari dan meningkatkan keilmuan secara daring dengan menggunakan teknologi digital sehingga menjadi pribadi unggul dalam persaingan di era globalisasi.\n"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
@@ -167,7 +167,7 @@
                         android:fontFamily="@font/montserrat"
                         android:textStyle="normal"
                         android:textColor="@color/black"
-                        android:text="Kemudahan dalam belajar merupakan alasan utama dibuatnya aplikasi ini.\n"
+                        android:text="Membantu mahasiswa untuk dapat mengakses keilmuan secara mandiri dengan lebih mudah dan cepat.\n"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
@@ -226,7 +226,7 @@
                     android:fontFamily="@font/montserrat"
                     android:textStyle="normal"
                     android:textColor="@color/black"
-                    android:text="Menu yang berisi daftar komponen pada Automatic Storage &amp; Retrieval System Station.\n"
+                    android:text="Menu Daftar berisi daftar gambar dan deskripsi komponen ASRS\n"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -272,7 +272,7 @@
                     android:fontFamily="@font/montserrat"
                     android:textStyle="normal"
                     android:textColor="@color/black"
-                    android:text="Menu untuk memindai kode QR pada komponen Automatic Storage &amp; Retrieval System Station.\n"
+                    android:text="Menu Scan berisi fungsi untuk melakukan pemindaian kode QR komponen ASRS.\n"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -318,7 +318,7 @@
                     android:fontFamily="@font/montserrat"
                     android:textStyle="normal"
                     android:textColor="@color/black"
-                    android:text="Menu yang berisi video tentang Automatic Storage &amp; Retrieval System Station dan Modular Production System.\n"
+                    android:text="Menu Video berisi video mengenai cara kerja ASRS dan MPS.\n"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -364,7 +364,7 @@
                     android:fontFamily="@font/montserrat"
                     android:textStyle="normal"
                     android:textColor="@color/black"
-                    android:text="Menu yang berisi informasi tentang Modular Production System.\n"
+                    android:text="Menu MPS berisi tentang teknologi MPS.\n"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -406,11 +406,12 @@
                 </LinearLayout>
 
                 <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_marginTop="10dp"
                     android:textSize="14dp"
                     android:fontFamily="@font/montserrat"
                     android:textStyle="normal"
                     android:textColor="@color/black"
-                    android:text="Menu yang berisi informasi tentang aplikasi ASRS.\n"
+                    android:text="Menu Tentang berisi informasi mengenai tujuan, petunjuk penggunaan dan pengembang dari aplikasi ASRS.\n"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -493,6 +494,43 @@
                 android:textAlignment="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/white"
+                android:id="@+id/share"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/segoe_ui"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:text="Bagikan Aplikasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:src="@drawable/paper_plane_30px"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 

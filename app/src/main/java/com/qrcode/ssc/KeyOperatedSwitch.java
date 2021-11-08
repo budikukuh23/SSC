@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class PneumaticLiniearDriver extends AppCompatActivity {
+public class KeyOperatedSwitch extends AppCompatActivity {
 
     private CardView backButton, qrButton;
     ImageView gambarKomponen;
@@ -17,13 +17,13 @@ public class PneumaticLiniearDriver extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pneumatic_liniear_driver);
+        setContentView(R.layout.activity_key_operated_switch);
 
         gambarKomponen = findViewById(R.id.gambarNew);
         backButton = findViewById(R.id.back);
         qrButton = findViewById(R.id.camBtn);
 
-        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FPneumatic%20Liniear%20Drive2.png?alt=media&token=1daff691-34db-4218-9772-a29645717c41";
+        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FKey-Operated%20Switch2.jpg?alt=media&token=16cfbd55-633f-4c3c-a584-a300399a41f8";
 
         Picasso.get().load(urlGambar).into(gambarKomponen);
 
@@ -31,7 +31,7 @@ public class PneumaticLiniearDriver extends AppCompatActivity {
 
         qrButton.setOnClickListener(v -> {
             Intent intent;
-            intent = new Intent(PneumaticLiniearDriver.this, MenuScannerActivity.class);
+            intent = new Intent(KeyOperatedSwitch.this, MenuScannerActivity.class);
             startActivity(intent);
         });
     }

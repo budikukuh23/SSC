@@ -379,7 +379,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/vacuum_generator"
+                    android:id="@+id/key_op_sw"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -400,7 +400,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gamb_vacuum_generator"
+                            android:id="@+id/gamb_key_op_sw"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -413,7 +413,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Vacuum Generator"
+                                android:text="Key-Operated Switch"
                                 android:textSize="13sp"
                                 android:maxLines="2"
                                 android:textColor="@color/black"
@@ -421,7 +421,7 @@
                                 android:layout_height="wrap_content"/>
 
                             <TextView
-                                android:text="Part Number: 185865"
+                                android:text="Part Number: 85365080"
                                 android:textSize="10sp"
                                 android:textColor="@color/orange"
                                 android:fontFamily="@font/segoe_ui"
@@ -721,6 +721,63 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
+                    android:id="@+id/proximity_sensor"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gamb_proximity_sensor"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Proximity Sensor"
+                                android:textSize="13sp"
+                                android:maxLines="2"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="Part Number: 150857"
+                                android:textSize="10sp"
+                                android:textColor="@color/orange"
+                                android:fontFamily="@font/segoe_ui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
                     android:id="@+id/relay_module"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -892,63 +949,6 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/proximity_sensor"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardElevation="5dp"
-                    app:cardCornerRadius="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gamb_proximity_sensor"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Reed-switch"
-                                android:textSize="13sp"
-                                android:maxLines="2"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <TextView
-                                android:text="Part Number: 150857"
-                                android:textSize="10sp"
-                                android:textColor="@color/orange"
-                                android:fontFamily="@font/segoe_ui"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
                     android:id="@+id/proximity_sensor2"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -1040,7 +1040,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="ASRS module"
+                                android:text="Handling Module"
                                 android:textSize="13sp"
                                 android:maxLines="2"
                                 android:textColor="@color/black"
@@ -1211,7 +1211,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Storage Places Module"
+                                android:text="Workpiece Reception Module"
                                 android:textSize="13sp"
                                 android:maxLines="2"
                                 android:textColor="@color/black"
@@ -1325,7 +1325,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Control Console"
+                                android:text="Control Panel"
                                 android:textSize="13sp"
                                 android:maxLines="2"
                                 android:textColor="@color/black"

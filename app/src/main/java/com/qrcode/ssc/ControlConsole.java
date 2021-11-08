@@ -23,7 +23,7 @@ public class ControlConsole extends AppCompatActivity {
         backButton = findViewById(R.id.back);
         qrButton = findViewById(R.id.camBtn);
 
-        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPart%2FControl%20console.jpg?alt=media&token=fe31c41f-2100-49e7-b29b-d860298d7622";
+        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2Fcontrolpanel.jpg?alt=media&token=bf826e2f-5ae2-40de-84c2-cab26b137e3d";
 
         Picasso.get().load(urlGambar).into(gambarKomponen);
 

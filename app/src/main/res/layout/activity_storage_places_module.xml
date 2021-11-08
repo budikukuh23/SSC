@@ -7,32 +7,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".StoragePlacesModule">
+    tools:context=".WrModule">
 
     <RelativeLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="220dp">
 
-        <ImageView
-            android:id="@+id/gambarNew"
-            android:padding="20dp"
-            android:layout_centerInParent="true"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpSlider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/segoe_ui"
             android:textSize="13sp"
-            android:text="Sumber: www.festo-didactic.com"
+            android:text="Sumber: www.festo.com"
             android:textColor="@color/black"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:layout_gravity="right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:id="@+id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:centered="true"
+            app:fillColor="@color/orange"
+            app:pageColor="#00000000"
+            app:strokeColor="@color/orange"
+            app:snap="false"/>
 
         <androidx.cardview.widget.CardView
             app:cardBackgroundColor="@color/transparan"
@@ -99,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
-                android:text="Storage Places Module"
+                android:text="Workpiece Reception Module"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -150,7 +163,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Module Storage Place mampu menyimpan hingga 7 benda kerja dalam 4 warna, 7 benda kerja tersebut dapat disimpan di masing-masing dari 4 tingkat penyimpanan, sehingga high-bay racking module memiliki kapasitas penyimpanan sebanyak 28 benda kerja dalam satu waktu.\n"
+                android:text="Workpiece reception module mampu menyimpan hingga 7 benda kerja dalam 4 warna, 7 benda kerja tersebut dapat disimpan di masing-masing dari 5 tingkat penyimpanan, sehingga workpiece reception module memiliki kapasitas penyimpanan sebanyak 35 benda kerja dalam satu waktu.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

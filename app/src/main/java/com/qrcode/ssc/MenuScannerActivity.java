@@ -63,8 +63,8 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "185865": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, VacuumGenerator.class);
+                                    case "85365080": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, KeyOperatedSwitch.class);
                                         startActivity(intent);
                                         break;
                                     }
@@ -169,17 +169,17 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                         break;
                                     }
                                     case "710755": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, RelayModule.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, RelayModul.class);
                                         startActivity(intent);
                                         break;
                                     }
                                     case "197533": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PneumaticGripper.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, Gripper.class);
                                         startActivity(intent);
                                         break;
                                     }
                                     case "384266": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PneumaticLiniearDriver.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, PneumaticLinierDrive.class);
                                         startActivity(intent);
                                         break;
                                     }
@@ -189,17 +189,17 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                         break;
                                     }
                                     case "451251": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PlanarSurfaceGantryModule.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, HandlingModule.class);
                                         startActivity(intent);
                                         break;
                                     }
                                     case "193742": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ElectricalToothedBeltAxis.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, EtbAxis.class);
                                         startActivity(intent);
                                         break;
                                     }
                                     case "451252": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, StoragePlacesModule.class);
+                                        Intent intent = new Intent(MenuScannerActivity.this, WrModule.class);
                                         startActivity(intent);
                                         break;
                                     }
