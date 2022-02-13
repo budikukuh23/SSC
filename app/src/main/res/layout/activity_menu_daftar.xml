@@ -778,6 +778,120 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
+                    android:id="@+id/motor_servo"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gamb_motor_servo"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Motor Servo DC"
+                                android:textSize="13sp"
+                                android:maxLines="2"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="Part Number: 2912"
+                                android:textSize="10sp"
+                                android:textColor="@color/orange"
+                                android:fontFamily="@font/segoe_ui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
+                    android:id="@+id/driver_motor"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gamb_driver_motor"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Drive Motor Servo DC"
+                                android:textSize="13sp"
+                                android:maxLines="2"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:text="Part Number: 2500081"
+                                android:textSize="10sp"
+                                android:textColor="@color/orange"
+                                android:fontFamily="@font/segoe_ui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
                     android:id="@+id/relay_module"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -1676,120 +1790,6 @@
 
                             <TextView
                                 android:text="Part Number: 186285"
-                                android:textSize="10sp"
-                                android:textColor="@color/orange"
-                                android:fontFamily="@font/segoe_ui"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/vacuum_filter"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardElevation="5dp"
-                    app:cardCornerRadius="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gamb_vacuum_filter"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Vacuum Filter"
-                                android:textSize="13sp"
-                                android:maxLines="2"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <TextView
-                                android:text="Part Number: 015889"
-                                android:textSize="10sp"
-                                android:textColor="@color/orange"
-                                android:fontFamily="@font/segoe_ui"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/non_return_valve"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardElevation="5dp"
-                    app:cardCornerRadius="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gamb_non_return_valve"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Non return Valve"
-                                android:textSize="13sp"
-                                android:maxLines="2"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <TextView
-                                android:text="Part Number: 153462"
                                 android:textSize="10sp"
                                 android:textColor="@color/orange"
                                 android:fontFamily="@font/segoe_ui"

@@ -156,7 +156,7 @@
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:fontFamily="@font/segoe_ui"
-                    android:text="Desain"
+                    android:text="Deskripsi"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -171,7 +171,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Terminal untuk 8 input dan 8 output digabungkan dalam unit dasar. Selain itu, terminal distributor disediakan untuk 0 V dan 24 V untuk suplai sensor dan aktuator. Unit dasar dapat dijepitkan ke rel top-hat. Semua titik kontak dan suplai arus terhubung ke steker 24-pin. Terminal I/O terhubung ke kabinet kontrol melalui kabel I/O.\n"
+                android:text="I/O Terminal menyediakan 8 input dan 8 output pada terminal sekrup, 24 LED tersedia untuk menampilkan status I/O.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -204,7 +204,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Terminal I/O menyediakan 8 input dan 8 output pada terminal sekrup. 24 LED tersedia untuk tampilan status untuk menunjukkan status I/Os.\n"
+                android:text="I/O Terminal dan I/O data cable Syslink connectors berfungsi untuk menghubungkan komponen sensor dan aktuator automatic storage and retrieval system station dengan PLC board.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

@@ -163,7 +163,33 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Handling module bekerja memindahkan benda kerja ke tempat penyimpanan dan mengembalikan benda kerja ke transport sistem sesuai dengan permintaan.\n\nBenda kerja diapit menggunakan pneumatic gripper dan dipindahkan dengan penggerak pneumatic liniear drive (sumbu Y) dan electrical toothed belt axis (sumbu Z dan X).\n\nPosisi handling module diatur oleh motor servo DC sebagai aktuator serta reed switch dan proximity sensor sebagai sensor.\n"
+                android:text="Handling Module merupakan module dalam automatic storage and retrieval system station yang digunakan untuk memindahkan benda kerja ke tempat penyimpanan di workpiece reception module dan mengembalikan benda kerja ke transport sistem sesuai. Benda kerja dipindahkan dengan cara dicapit menggunakan pneumatic gripper dan dipindahkan oleh penggerak pneumatic linear drive (Sumbu Y) juga electrical toothed belt axis (Sumbu X dan Z). Posisi handling module diatur oleh motor servo DC sebagai aktuator, serta reed switch dan proximity sensor sebagai sensor.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="32dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Handling Module berfungsi memindahkan benda kerja yang berada di transport sistem menuju workpiece reception module.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

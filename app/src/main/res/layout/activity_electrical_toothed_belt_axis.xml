@@ -180,8 +180,47 @@
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
                     android:layout_marginLeft="16dp"
-                    android:text="Unit penggerak linier elektromekanis dengan penggerak sabuk bergigi, dapat diprogram menggunakan DC-servomotor yang dilengkapi sistem transduksi inkremental. \n\nTipe electrical toothed belt axis:\nDGE-25-300-ZR-LH-RK-KG-KF-GK,\nPergerakan secara vertical (Sumbu Z).\n\nDGE-25-720-ZR-LH-RK-KG-KF-GK,\nPergerakan secara horizontal (Sumbu X)\n
-"
+                    android:text="Electrical Toothed Belt Axis adalah unit penggerak liniear elektromekanis dan digerakan menggunakan motor servo DC yang dilengkapi sistem transduksi incremental.\n\n
+Tipe Electrical Toothed Belt Axis:\n
+DGE-25-720-ZR-LH-RK-KG-GK\n
+Pergerakan secara vertikal (Sumbu Z)\n\n
+DGE-25-720-ZR-LH-RK-KG-GK\n
+Pergerakan secara horizontal (Sumbu X)\n"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:layout_marginLeft="16dp"
+                    android:text="Electrical Toothed Belt Axis digunakan untuk memindahkan gripper dan benda kerja menuju posisi yang telah deprogram/ditentukan.\n"
                     android:textColor="@color/black"
                     android:background="@color/white"
                     android:textSize="15sp"

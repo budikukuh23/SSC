@@ -150,133 +150,33 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Untuk mengisi cairan ke stasiun Pembotolan MPS® PA. Benda kerja kompatibel dengan stasiun MPS®. Misalnya, panci di stasiun Pick and Place dapat disegel dengan tutupnya.\n"
+                android:text="PA Workpiece set adalah sebuah benda kerja di MPS 500-FMS Learning System terdiri dari 3 jenis benda kerja yaitu merah non logam, perak logam, dan hitam non logam.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="32dp"
                 android:paddingRight="15dp"
                 android:paddingBottom="8dp"
-                android:text="Set terdiri dari:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="6 rumah hitam"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="6 rumah merah"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="6 rumah perak"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="6 rumah transparan"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Diameter luar D = 40 mm"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Tinggi H = 25 mm"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Volume V = 15 ml"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="24 tutup hitam"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="PA Workpiece set digunakan sebagai benda kerja.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

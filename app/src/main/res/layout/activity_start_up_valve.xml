@@ -142,7 +142,7 @@
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:fontFamily="@font/segoe_ui"
-                    android:text="Desain"
+                    android:text="Deskripsi"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -157,7 +157,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Regulator filter dengan pengukur tekanan, katup on/off, fitting push-in dan cepat steker kopling dipasang pada penahan putar. Mangkuk filter dilengkapi dengan a pelindung mangkuk logam. Unit dipasang pada pelat profil dengan menggunakan kepala keju sekrup dan mur kepala-T (alternatif pemasangan C). Terlampir adalah kopling cepat soket dengan semak berulir dan mur konektor untuk pipa plastik PUN 6 x 1.\n"
+                android:text="Air Service Unit with On/Off Valve merupakan komponen yang digunakan sebagai penyedia udara yang bersih dan kering untuk mensuplai udara ke MPS Station.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -190,7 +190,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Filter dengan pemisah air membersihkan udara terkompresi dari kotoran, kerak pipa, karat dan kondensat. Regulator tekanan menyesuaikan udara terkompresi yang dipasok ke operasi yang ditetapkan tekanan dan mengkompensasi fluktuasi tekanan. Sebuah panah di perumahan menunjukkan arah aliran. Mangkuk filter dilengkapi dengan sekrup pembuangan filter. NS pengukur tekanan menunjukkan tekanan preset. Katup on/off menguras seluruh kontrol. Katup 3/2-arah digerakkan melalui selongsong geser biru.\n"
+                android:text="Komponen ini digunakan untuk menyaring dengan pemisah air yang membersihkan udara terkompresi dari kotoran, kerak, karat, dan kondesat atau dengan kata lain Air Service Unit with On/Off Valve berfungsi sebagai penyedia udara yang bersih dan kering untuk mensuplai udara ke MPS Station. Regulator tekanan menyesuaikan udara terkompresi yang dipasok ke operasi yang ditetapkan tekanan dan menkompensasi fluktuasi tekanan.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

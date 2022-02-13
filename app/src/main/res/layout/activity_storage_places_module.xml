@@ -163,7 +163,33 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Workpiece reception module mampu menyimpan hingga 7 benda kerja dalam 4 warna, 7 benda kerja tersebut dapat disimpan di masing-masing dari 5 tingkat penyimpanan, sehingga workpiece reception module memiliki kapasitas penyimpanan sebanyak 35 benda kerja dalam satu waktu.\n"
+                android:text="Workpiece Reception Module mampu untuk menyimpan benda kerja secara lebih tertata dan mudah diamati dikarenakan ketinggian rak, jarak antar benda kerja serta dudukan benda kerja disesuaikan dengan spesifikasi benda kerja yang digunakan. Workpiece Reception Module terdiri dari 5 susun tingkat rak dengan 7 buah tempat benda kerja dalam satu tingkat rak, sehingga workpiece reception module memiliki kapasitas penyimpanan sebanyak 35 benda kerja dalam satu waktu.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="32dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Workpiece Reception Module berfungsi sebagai tempat penyimpanan benda kerja pada automatic storage and retrieval system station.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

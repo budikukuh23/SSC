@@ -139,30 +139,10 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_marginTop="3dp"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:elevation="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-
-        <TextView
-            android:paddingLeft="15dp"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:fontFamily="@font/segoe_ui"
-            android:text="Data Teknis"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -170,6 +150,92 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Deskripsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Fitting Rotatable QSRL-G1/8-4 memiliki koneksi pneumatic G1/8 dengan fitur standar dan dilengkapi dengan kemampuan putar 360 derajat. Komponen ini digunakan untuk pengaplikasian pneumatik pada rentang suhu hingga 60 derajat celcius dan rentang tekanan hingga 14 bar.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Fungsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Fitting Rotatable digunakan untuk menghubungkan aliran udara melalui sambungan tubing ke komponen pneumatic lainnya dengan didukung kelebihan dapat diputar ke segala arah.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Data Teknis"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:background="@color/white"

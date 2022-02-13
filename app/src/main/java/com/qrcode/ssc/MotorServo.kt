@@ -7,22 +7,24 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_non_return_valve.*
+import kotlinx.android.synthetic.main.activity_motor_servo.*
 import java.util.*
 
-class NonReturnValve : AppCompatActivity() {
+class MotorServo : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_non_return_valve)
+        setContentView(R.layout.activity_motor_servo)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FNon%20return%20valve%2Fnon_return_valve1.jpg?alt=media&token=1c27f069-e126-4321-b6c0-f3330bf1b5fd",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FNon%20return%20valve%2Fnon_return_valve2.jpg?alt=media&token=eb53ca9f-dafd-4e9f-8370-6815ac2cd3c1",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FNon%20return%20valve%2Fnon_return_valve3.jpg?alt=media&token=37110376-43e2-496e-8ecd-9af6f9ba3a04"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%201.jpg?alt=media&token=8e437971-07f8-409f-a8c2-4ebb50108038",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%202.PNG?alt=media&token=616e9ae5-9a0d-4132-9628-9dbd8c7d4ce9",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%203.jpg?alt=media&token=01d995c6-830e-467a-8163-ff8ff0fa7acd",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%204.PNG?alt=media&token=eda6c80d-5ab5-404b-b175-baf7b35c8dcd",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%205.PNG?alt=media&token=4d912cc9-a04d-4c53-8989-cfb043ea9a90"
         )
 
         createSlider(images)
@@ -38,7 +40,6 @@ class NonReturnValve : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -71,5 +72,9 @@ class NonReturnValve : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

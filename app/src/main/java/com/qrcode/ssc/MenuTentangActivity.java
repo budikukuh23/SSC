@@ -34,7 +34,7 @@ public class MenuTentangActivity extends AppCompatActivity {
 
         String urlimage2 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2Fpersonal_growth_100px.png?alt=media&token=f25ebde7-f905-418c-a7f0-75ad2d587ef5";
         String urlimage3 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2Feasy_100px.png?alt=media&token=1d90dabb-3ffe-4498-b623-d488ea1cfd69";
-        String urlApp = "https://drive.google.com/drive/folders/1T-MnLVAh8cfdzLUf3R6FZ6WuktC2_i_S?usp=sharing";
+        String urlApp = "https://bit.ly/aplikasiASRS";
 
         Picasso.get().load(urlimage2).into(imagetentang2);
         Picasso.get().load(urlimage3).into(imagetentang3);

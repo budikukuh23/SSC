@@ -30,7 +30,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/segoe_ui"
-            android:text="Sumber: www.festo.com"
+            android:text="Sumber: www.electricautomationnetwork.com"
             android:textColor="@color/black"
             android:textSize="13sp" />
 
@@ -129,7 +129,7 @@
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -165,7 +165,42 @@
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
                     android:layout_marginLeft="16dp"
-                    android:text="Sakelar yang dioperasikan dengan kunci, 16 mm, bulat, plastik, CES, 3 posisi sakelar I&gt;O&lt;II, jenis kontak sesaat, Retraksi dari kiri dan kanan, Sudut penggerak 2 x 50 derajat, pelepasan kunci O, 1 NO, 1 NO.\n"
+                    android:text="Key-Operated Switch adalah sebuah saklar yang dioperasikan dengan menggunakan kunci. Saklar memiliki diameter 16mm dan dapat dialihkan ke 3 posisi yang dipertahankan dengan sudut saklar 50 derajat.\n"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:layout_marginLeft="16dp"
+                    android:text="Key-Operated Switch ini digunakan untuk mengatur ulang pengontrol motor toothed belt axis sebelum digunakan yakni dengan cara memutar saklar ke posisi 1 terlebih dahulu ke posisi 3.\n"
                     android:textColor="@color/black"
                     android:background="@color/white"
                     android:textSize="15sp"

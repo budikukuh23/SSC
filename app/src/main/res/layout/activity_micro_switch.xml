@@ -139,30 +139,10 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_marginTop="3dp"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:elevation="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-
-        <TextView
-            android:paddingLeft="15dp"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:fontFamily="@font/segoe_ui"
-            android:text="Data Teknis"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -170,6 +150,92 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Deskripsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Micro switch S-3-E merupakan saklar micro switch yang memiliki tuas berupa tuas rol sebagai pengubah posisi kontak terminal. Titik saklar hanya boleh dilampaui 0,5 mm dengan saklar batas listrik ini.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Fungsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Micro Switch ini merupakan saklar batas listrik yang digunakan untuk penginderaan posisi akhir semi-rotary drive.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Data Teknis"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:background="@color/white"

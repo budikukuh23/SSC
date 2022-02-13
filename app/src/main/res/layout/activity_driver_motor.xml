@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".PneumaticLinierDrive">
+    tools:context=".DriverMotor">
 
     <RelativeLayout
         android:background="@color/white"
@@ -16,17 +16,17 @@
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/vpSlider"
-            android:layout_centerInParent="true"
             android:layout_width="match_parent"
-            android:padding="20dp"
-            android:layout_height="220dp"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/segoe_ui"
             android:textSize="13sp"
-            android:text="Sumber: www.festo.com"
+            android:text="Sumber: www.paebra-gmbh.de"
             android:textColor="@color/black"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
@@ -35,21 +35,21 @@
             android:layout_height="wrap_content"/>
 
         <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:id="@+id/indicator"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dip"
             app:centered="true"
             app:fillColor="@color/orange"
             app:pageColor="#00000000"
-            app:strokeColor="@color/orange"
-            app:snap="false"/>
+            app:snap="false"
+            app:strokeColor="@color/orange" />
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/back"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
@@ -69,8 +69,8 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/camBtn"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
@@ -103,37 +103,37 @@
         android:layout_height="100dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
-                android:text="Pneumatic Liniear Driver"
+                android:textStyle="bold"
                 android:textColor="@color/black"
+                android:text="Drive Motor Servo DC"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
             <TextView
                 android:fontFamily="@font/segoe_ui"
                 android:textColor="@color/black"
-                android:text="DGPL-18-PPV-A-GF-B"
+                android:text="Drive Control DC RS Alpha 5 A40014"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
-                android:text="Part Number: 384266"
                 android:textColor="@color/orange"
+                android:textStyle="normal"
                 android:textSize="13sp"
-                android:textStyle="normal" />
+                android:text="Part Number: 2500081"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
@@ -142,84 +142,81 @@
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:paddingBottom="16dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <LinearLayout
+                android:layout_marginTop="3dp"
                 android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="10dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:fontFamily="@font/segoe_ui"
-                android:text="Deskripsi"
-                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Deskripsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Drive Motor Servo DC RS Alpha 5 dirancang untuk mengendalikan motor DC. Drive controller ini memiliki mini-PLC yang dapat diprogram secara bebas, namun bisa juga diprogram menggunakan PLC eksternal untuk menyesuaikan sistem yang dibutuhkan secara optimal. Drive controller dilengkapi dengan pengaman dari korsleting dan kelebihan suhu jika arus motor maksimum yang disetel terlampaui atau korsleting terjadi, selanjutnya saluran output yang mengarah ke motor akan dimatikan.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <LinearLayout
                 android:layout_marginTop="3dp"
                 android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="40dp">
 
-                <me.biubiubiu.justifytext.library.JustifyTextView
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
                     android:fontFamily="@font/segoe_ui"
-                    android:layout_marginLeft="16dp"
-                    android:text="Pneumatic liniear drive DGPL-18-PPV-A-GF-B adalah penggerak liniear tanpa batang dengan panduan bantalan bola resilkulasi silinder kerja ganda. Pneumatic liniear drive bergerak maju dan mundur menggunakan udara yang terkompresi. Piston dilengkapi dengan magnet permanen yang medan magnetnya dapat dideteksi oleh proximity sensor sehingga memungkinkan penginderaan tanpa kontak dari posisi tengah dan akhir drive.\n"
+                    android:text="Fungsi"
                     android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
 
             </LinearLayout>
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="10dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:text="Fungsi"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Drive Motor Servo DC RS Alpha 5 berfungsi untuk mengendalikan kerja motor servo DC dalam menggerakan electrical toothed belt axis.\n"
                 android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-            <LinearLayout
-                android:layout_marginTop="3dp"
-                android:background="@color/white"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <me.biubiubiu.justifytext.library.JustifyTextView
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:layout_marginLeft="16dp"
-                    android:text="Pneumatic liniear drive digunakan untuk memindahkan gripper serta bergerak secara horizontal maju dan mundur di sumbu Y.\n"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <LinearLayout
                 android:layout_marginTop="3dp"
@@ -248,17 +245,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Desain konstruksi"
+                    android:text="Dimensi papan sirkuit"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -269,7 +266,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Penggerak linier pneumatik dengan slide"
+                    android:text="70 X 100 X 30 mm"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -283,17 +280,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Perlindungan terhadap torsi/panduan"
+                    android:text="Berat papan sirkuit "
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -304,7 +301,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Rel pemandu dengan pemandu geser dan bantalan biasa GF atau pemandu bantalan bola resirkulasi KF"
+                    android:text="100 g"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -318,17 +315,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Modus operasi"
+                    android:text="Suhu operasi"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -339,7 +336,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="akting ganda"
+                    android:text="0 s/d 50^℃"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -353,17 +350,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Prinsip pengemudi"
+                    android:text="Suhu penyimpanan"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -374,7 +371,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Penguncian positif (slot)"
+                    android:text="-25 s/d 85^℃"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -388,17 +385,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Posisi pemasangan"
+                    android:text="Tegangan suplai"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -409,7 +406,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Apa saja"
+                    android:text="10 V DC s/d 30 V DC"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -423,17 +420,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Koneksi pneumatik"
+                    android:text="Nilai arus motor"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -444,7 +441,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="M5"
+                    android:text="5 A s/d 10 A (maks)"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -458,17 +455,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Panjang goresan"
+                    android:text="Pembatasan arus motor"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -479,7 +476,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="10-1800 mm"
+                    android:text="1 A s/d 10 A"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -493,17 +490,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Bantalan"
+                    android:text="Akurasi kecepatan"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -514,166 +511,12 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Dapat disesuaikan di kedua ujungnya \nMenyesuaikan diri di kedua ujungnya"
+                    android:text="+/- 5 %"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
             </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Panjang bantalan (PPV)"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="16 mm"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Penginderaan posisi"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="Melalui magnet"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Kecepatan Maks. GF"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="1 m/s"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Kecepatan Maks. KF"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="3 ms"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Sumber: www.festo.com"
-                android:textColor="@color/black"
-                android:textSize="13sp"
-                android:textStyle="normal" />
 
         </LinearLayout>
 

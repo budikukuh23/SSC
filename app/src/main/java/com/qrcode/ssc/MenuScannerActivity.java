@@ -113,16 +113,6 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "015889": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, VacuumFilter.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "153462": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, NonReturnValve.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
                                     case "007347": {
                                         Intent intent = new Intent(MenuScannerActivity.this, MicroSwitch.class);
                                         startActivity(intent);
@@ -165,6 +155,16 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                     }
                                     case "175047": {
                                         Intent intent = new Intent(MenuScannerActivity.this, OneWayFlowControlValve2.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "2912": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, MotorServo.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "2500081": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, DriverMotor.class);
                                         startActivity(intent);
                                         break;
                                     }

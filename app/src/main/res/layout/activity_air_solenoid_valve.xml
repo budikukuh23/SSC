@@ -35,17 +35,17 @@
             android:layout_height="wrap_content"/>
 
         <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:id="@+id/indicator"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dip"
             app:centered="true"
             app:fillColor="@color/orange"
             app:pageColor="#00000000"
-            app:strokeColor="@color/orange"
-            app:snap="false"/>
+            app:snap="false"
+            app:strokeColor="@color/orange" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/back"
@@ -139,30 +139,10 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_marginTop="3dp"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:elevation="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-
-        <TextView
-            android:paddingLeft="15dp"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:fontFamily="@font/segoe_ui"
-            android:text="Data Teknis"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -170,6 +150,92 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Deskripsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Air Solenoid Valve 5/2 memiliki 5 port dan 2 posisi/ruang. Komponen ini merupakan bagian dari komponen CP Valve Terminal.\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Fungsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Air Solenoid Valve 5/2 merupakan katup listrik dimana koil yang dimiliki berfungsi untuk penggerak Ketika koil tersebut mendapatkan suplai tegangan. Koil yang mendapat tegangan akan diubah menjadi medan magnet sehingga dapat menggerakan plunger pada bagian dalamnya, saat plunger berpindah posisi maka pada lubang keluaran dari solenoid valve akan keluar udara bertekanan yang berasal dari suplai (service unit).\n"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Data Teknis"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:background="@color/white"

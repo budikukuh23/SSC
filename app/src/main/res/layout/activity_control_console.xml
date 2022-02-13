@@ -143,20 +143,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Konsol kontrol MPS® untuk SysLink"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
             <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -164,36 +150,24 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Konsol kontrol MPS® memungkinkan pengoperasian stasiun MPS® yang lebih sederhana. SysLink atau AS-interface – berbagai antarmuka memastikan keserbagunaan penggunaan. Dirakit sepenuhnya dengan panel operasi, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor SysLink.\n"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <me.biubiubiu.justifytext.library.JustifyTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="8dp"
-                android:text="Keyboard membran: Mulai tombol tekan dengan LED, Berhenti tombol tekan, Setel ulang tombol tekan dengan LED, 2 lampu kontrol yang dapat dialihkan secara fleksibel. Soket pengaman 4 mm dengan tampilan status LED untuk koneksi I/O sederhana. Soket Syslink dan Sub-D untuk koneksi ke PLC pilihan tersedia di panel belakang.\n"
+                android:text="Control Panel terdiri dari 16 input dan output, dengan koneksi via syslink posisi default yaitu; push button start (NO), push button stop (NC), push button reset (NO), auto/man (NO), juga indikator LED, Run LED, Reset LED, lampu indikator Q1, lampu indikator Q2. Control Panel dirangkai dengan panel operasi, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor syslink.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="32dp"
                 android:paddingRight="15dp"
                 android:paddingBottom="8dp"
-                android:text="Konsol kontrol MPS® untuk antarmuka AS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
             <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
@@ -202,7 +176,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Dirakit sepenuhnya dengan konsol kontrol antarmuka AS, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor antarmuka AS.\n"
+                android:text="Control Panel berfungsi untuk mengatur pengoperasian pada station dengan lebih sederhana.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

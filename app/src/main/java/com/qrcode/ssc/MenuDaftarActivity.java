@@ -16,8 +16,7 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
     private CardView backbutton, cambutton,
             cv1, cv2, cv3, cv4, cv5, cv6, cv7, cv8, cv9, cv10,
             cv11, cv12, cv13, cv14, cv15, cv16, cv17, cv18, cv19, cv20,
-            cv21, cv22, cv23, cv24, cv25, cv26, cv27, cv28, cv29, cv30,
-            cv31, cv32;
+            cv21, cv22, cv23, cv24, cv25, cv26, cv27, cv28, cv31, cv32, cv33, cv34;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +37,8 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         ImageView iv10 = findViewById(R.id.gamb_connecting_cable_b);
         ImageView iv11 = findViewById(R.id.gamb_connecting_cable);
         ImageView iv12 = findViewById(R.id.gamb_proximity_sensor);
+        ImageView iv33 = findViewById(R.id.gamb_motor_servo);
+        ImageView iv34 = findViewById(R.id.gamb_driver_motor);
         ImageView iv13 = findViewById(R.id.gamb_relay_module);
         ImageView iv14 = findViewById(R.id.gamb_pneumatic_gripper);
         ImageView iv15 = findViewById(R.id.gamb_pneumatic_liniear_drive);
@@ -54,8 +55,6 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         ImageView iv26 = findViewById(R.id.gamb_push_in_lfitting_b);
         ImageView iv27 = findViewById(R.id.gamb_silencer);
         ImageView iv28 = findViewById(R.id.gamb_push_in_lfitting_rotatable);
-        ImageView iv29 = findViewById(R.id.gamb_vacuum_filter);
-        ImageView iv30 = findViewById(R.id.gamb_non_return_valve);
         ImageView iv31 = findViewById(R.id.gamb_plastic_tubing);
         ImageView iv32 = findViewById(R.id.gamb_plastic_tubing_b);
 
@@ -71,6 +70,8 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         String ui10 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FConnecting%20cable2%2Fconnecting_cableb1.jpg?alt=media&token=e5a0b827-482e-49a5-98d6-e7f46e5bf647";
         String ui11 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FConnecting%20cable%2Fconnecting_cable1.jpg?alt=media&token=d5b16ad3-af7a-4d6e-a082-d7fa433eccee";
         String ui12 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FProximity%20sensor%2Fproximity_sensor1.jpg?alt=media&token=2f3ab895-e2a1-4631-aee1-f5514a2826de";
+        String ui33 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FMotor%20Servo%20DC%201.jpg?alt=media&token=8e437971-07f8-409f-a8c2-4ebb50108038";
+        String ui34 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FDrive%20Motor%20DC%201.jpg?alt=media&token=228450db-0b89-4e40-b81e-007e241cafc5";
         String ui13 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2F1.%20Relay%20%5B1%5D.jpg?alt=media&token=04af5f7e-094b-4ae3-9119-7dda138c8507";
         String ui14 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2F6.%20Gripper%20%5B1%5D.PNG?alt=media&token=7fe8e8ee-a3c9-4eed-a1f8-430f68be32ae";
         String ui15 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2F4.%20Pneumatic%20Liniear%20Drive%20%5B1%5D.jpg?alt=media&token=2233d9d8-9c26-47c2-a184-ed00923f3098";
@@ -87,8 +88,6 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         String ui26 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting2%2Fpush_in_l_fittingb1.jpg?alt=media&token=b4f32ca5-788f-42cd-9340-4d13facb346c";
         String ui27 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FSilencer.jpg?alt=media&token=cc87d42f-86b0-40c6-8cc1-696333c39cc4";
         String ui28 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2C%20rotatable%2Fpush_in_l_fitting_rotatable1.jpg?alt=media&token=bab28f24-f9a2-44c2-addf-5ca73af854d3";
-        String ui29 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20filter%2Fvacuum_filter1.jpg?alt=media&token=df577b2b-0be3-4cc1-9089-f030815c12b6";
-        String ui30 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FNon%20return%20valve%2Fnon_return_valve1.jpg?alt=media&token=1c27f069-e126-4321-b6c0-f3330bf1b5fd";
         String ui31 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPlastic%20tubing%2Fplastic_tubing1.jpg?alt=media&token=4db4de74-48ff-4af7-80ba-bea55eeb1586";
         String ui32 = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPlastic%20tubing2%2Fplastic_tubingb1.jpg?alt=media&token=e7c652e8-939a-4c46-bb7e-f740fe41af3c";
 
@@ -104,6 +103,8 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         Picasso.get().load(ui10).into(iv10);
         Picasso.get().load(ui11).into(iv11);
         Picasso.get().load(ui12).into(iv12);
+        Picasso.get().load(ui33).into(iv33);
+        Picasso.get().load(ui34).into(iv34);
         Picasso.get().load(ui13).into(iv13);
         Picasso.get().load(ui14).into(iv14);
         Picasso.get().load(ui15).into(iv15);
@@ -120,8 +121,6 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         Picasso.get().load(ui26).into(iv26);
         Picasso.get().load(ui27).into(iv27);
         Picasso.get().load(ui28).into(iv28);
-        Picasso.get().load(ui29).into(iv29);
-        Picasso.get().load(ui30).into(iv30);
         Picasso.get().load(ui31).into(iv31);
         Picasso.get().load(ui32).into(iv32);
 
@@ -137,6 +136,8 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         cv10 = findViewById(R.id.connecting_cable_b);
         cv11 = findViewById(R.id.connecting_cable);
         cv12 = findViewById(R.id.proximity_sensor);
+        cv33 = findViewById(R.id.motor_servo);
+        cv34 = findViewById(R.id.driver_motor);
         cv13 = findViewById(R.id.relay_module);
         cv14 = findViewById(R.id.pneumatic_gripper);
         cv15 = findViewById(R.id.pneumatic_liniear_drive);
@@ -153,8 +154,6 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         cv26 = findViewById(R.id.push_in_lfitting_b);
         cv27 = findViewById(R.id.silencer);
         cv28 = findViewById(R.id.push_in_lfitting_rotatable);
-        cv29 = findViewById(R.id.vacuum_filter);
-        cv30 = findViewById(R.id.non_return_valve);
         cv31 = findViewById(R.id.plastic_tubing);
         cv32 = findViewById(R.id.plastic_tubing_b);
 
@@ -189,10 +188,10 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
         cv26.setOnClickListener(this);
         cv27.setOnClickListener(this);
         cv28.setOnClickListener(this);
-        cv29.setOnClickListener(this);
-        cv30.setOnClickListener(this);
         cv31.setOnClickListener(this);
         cv32.setOnClickListener(this);
+        cv33.setOnClickListener(this);
+        cv34.setOnClickListener(this);
         backbutton.setOnClickListener(this);
         cambutton.setOnClickListener(this);
 
@@ -231,10 +230,10 @@ public class MenuDaftarActivity extends AppCompatActivity implements View.OnClic
             case R.id.push_in_lfitting_b: i = new Intent(this,PushInLFittingB.class); startActivity(i); break;
             case R.id.silencer: i = new Intent(this,Silencer.class); startActivity(i); break;
             case R.id.push_in_lfitting_rotatable: i = new Intent(this,PushInLFittingRotatable.class); startActivity(i); break;
-            case R.id.vacuum_filter: i = new Intent(this,VacuumFilter.class); startActivity(i); break;
-            case R.id.non_return_valve: i = new Intent(this,NonReturnValve.class); startActivity(i); break;
             case R.id.plastic_tubing: i = new Intent(this,PlasticTubing.class); startActivity(i); break;
             case R.id.plastic_tubing_b: i = new Intent(this,PlasticTubingB.class); startActivity(i); break;
+            case R.id.motor_servo: i = new Intent(this,MotorServo.class); startActivity(i); break;
+            case R.id.driver_motor: i = new Intent(this,DriverMotor.class); startActivity(i); break;
             case R.id.backBtn: onBackPressed(); break;
             case R.id.camBtn: i = new Intent(this,MenuScannerActivity.class); startActivity(i); break;
             default:break;

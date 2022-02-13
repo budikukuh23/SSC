@@ -7,45 +7,47 @@
         <entry key="..\:/Android Studio/SSC/app/src/main/res/drawable-v24/ic_ff.xml" value="0.2078125" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/drawable-v24/ic_fullscreen.xml" value="0.2078125" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/drawable/main_back.xml" value="0.27361111111111114" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve.xml" value="0.33671875" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve_b.xml" value="0.2078125" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve_c.xml" value="0.25" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve.xml" value="0.287716955941255" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve_b.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_air_solenoid_valve_c.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_aluminum_profile_plate.xml" value="0.33" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_connecting_cable.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_connecting_cable_b.xml" value="0.16484375" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_connecting_cable.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_connecting_cable_b.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_control_console.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_cp_valve_terminal.xml" value="0.33" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_daftar_video.xml" value="0.33671875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_driver_motor.xml" value="0.315625" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_electrical_toothed_belt_axis.xml" value="0.33" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_io_terminal.xml" value="0.16484375" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_io_terminal.xml" value="0.33" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_key_operated_switch.xml" value="0.25" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_main.xml" value="0.27260981912144705" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_menu_daftar.xml" value="0.33" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_menu_daftar.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_menu_mps.xml" value="0.33671875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_menu_scanner.xml" value="0.33671875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_menu_tentang.xml" value="0.2433234421364985" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_micro_switch.xml" value="0.2078125" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_mps_trolley.xml" value="0.20390625" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_motor_servo.xml" value="0.33671875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_mps_trolley.xml" value="0.33" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_non_return_valve.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_one_way_flow_control_valve.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_one_way_flow_control_valve2.xml" value="0.25" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pa_workpiece.xml" value="0.221875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pa_workpiece.xml" value="0.33" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pembimbing.xml" value="0.33671875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pengembang.xml" value="0.2" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_planar_surface_gantry_module.xml" value="0.25" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_plastic_tubing.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_plastic_tubing_b.xml" value="0.221875" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_plc_device.xml" value="0.1" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_plc_device.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pneumatic_gripper.xml" value="0.25" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_pneumatic_liniear_driver.xml" value="0.2815126050420168" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_proximity_sensor.xml" value="0.33" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_proximity_sensor2.xml" value="0.22" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_push_in_lfitting_b.xml" value="0.25" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_push_in_lfitting_rotatable.xml" value="0.221875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_push_in_lfitting_rotatable.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_relay_module.xml" value="0.25" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_silencer.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_splash.xml" value="0.33671875" />
-        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_start_up_valve.xml" value="0.33671875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_start_up_valve.xml" value="0.2708333333333333" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_storage_places_module.xml" value="0.27361111111111114" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_vacuum_filter.xml" value="0.221875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_vacuum_generator.xml" value="0.221875" />
@@ -53,6 +55,7 @@
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/activity_video2.xml" value="0.33671875" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/adapter_slider.xml" value="0.16484375" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/layout/custom_controller.xml" value="0.33671875" />
+        <entry key="..\:/Android Studio/SSC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1205" />
         <entry key="..\:/Android Studio/SSC/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1890625" />
       </map>
     </option>

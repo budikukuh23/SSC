@@ -7,7 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_vacuum_filter.*
+import kotlinx.android.synthetic.main.activity_relay_module.*
 import java.util.*
 
 class RelayModul : AppCompatActivity() {

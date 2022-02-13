@@ -150,21 +150,11 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Papan ini memungkinkan dua stasiun MPS® dipasang ada satu pelat profil. Kedua sisi memiliki slot, jadi jika perlu bagian dapat dipasang di kedua sisi. Slot kompatibel dengan sistem profil ITEM.\n"
+                android:text="Alumunium profile plate ini memungkinkan meletakan station automatic storage and retrieval system yang memiliki ukuran dua kali station pada umumnya. Alumunium profile plate mempunyai alur disetiap sisinya dan jika diperlukan kedua sisi dapat dipasang dengan komponen lainnya. Alur dari komponen ini kompatibel dengan sistem profile item yang mempunyai dimensi kisi 50mm. Pelat dilengkapi dengan tutup untuk sisi-sisinya.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
-            <me.biubiubiu.justifytext.library.JustifyTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:layout_marginLeft="16dp"
-                android:text="Pelat dilengkapi dengan tutup untuk sisi-sisinya.\n"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -206,6 +196,32 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
                 android:text="Panjang: 700 mm"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="32dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Alumunium profile plate digunakan sebagai tempat peletakan atau sebagai alas landasan pemasangan komponen-komponen pada station.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

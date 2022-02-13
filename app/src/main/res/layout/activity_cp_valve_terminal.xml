@@ -176,7 +176,48 @@
                     android:fontFamily="@font/segoe_ui"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:text="Terminal katup dikonfigurasi sebagai slave AS-Interface untuk mengontrol modul-modul pada ASRS.\n"
+                    android:text="CP Valve Terminal adalah terminal katup pengatur pasokan udara bertekanan yang memiliki struktur ringkas serta mudah ditempatkan di dekat aktuator. Semakin dekat CP valve terminal dengan aktuator akan memperkecil kehilangan udara dan waktu yang diperlukan untuk menekan dan menguras udara pada selang berkurang.\n"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="Fungsi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="CP Valve terminal digunakan sebagai pengatur pasokan udara bertekanan ke komponen pneumatic.\n"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />

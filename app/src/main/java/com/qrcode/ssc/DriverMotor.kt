@@ -7,22 +7,22 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_vacuum_filter.*
+import kotlinx.android.synthetic.main.activity_driver_motor.*
 import java.util.*
 
-class VacuumFilter : AppCompatActivity() {
+class DriverMotor : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_vacuum_filter)
+        setContentView(R.layout.activity_driver_motor)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20filter%2Fvacuum_filter1.jpg?alt=media&token=df577b2b-0be3-4cc1-9089-f030815c12b6",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20filter%2Fvacuum_filter2.jpg?alt=media&token=2f2ec08d-f5a8-49cc-b822-9675a8bbe2a3",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20filter%2Fvacuum_filter3.jpg?alt=media&token=79a87d6d-7990-4b53-957c-585cc19e2729"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FDrive%20Motor%20DC%201.jpg?alt=media&token=228450db-0b89-4e40-b81e-007e241cafc5",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FDrive%20Motor%20DC%202.PNG?alt=media&token=1f968951-3b26-49eb-8132-5f5ecb5d8205",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/ASRS%2FDrive%20Motor%20DC%203.PNG?alt=media&token=0a24179c-efe2-47cc-b4ed-89febe5ba2c5"
         )
 
         createSlider(images)
@@ -38,7 +38,6 @@ class VacuumFilter : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -71,5 +70,9 @@ class VacuumFilter : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

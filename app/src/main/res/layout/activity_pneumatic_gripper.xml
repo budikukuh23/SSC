@@ -178,7 +178,42 @@
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
                     android:layout_marginLeft="16dp"
-                    android:text="Gripper paralel kerja ganda, digerakkan oleh 2 silinder kerja parallel di dalam, dengan cincin magnet untuk deteksi posisi akhir, daya gripper 120 N buka dan 108 N tutup.\n"
+                    android:text="Pneumatic gripper HGP-16A adalah sebuah aktuator pneumatic yang menggunakan konfigurasi parallel atau digerakan oleh 2 silinder kerja paralel di dalam. Pneumatic gripper ini memiliki cincin magnet untuk mendeteksi posisi akhir. Daya gripper sebesar 120 N Ketika membuka dan 108 N Ketika menutup.\n"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Fungsi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:layout_marginLeft="16dp"
+                    android:text="Pneumatic gripper digunakan untuk menjepit dan melepaskan benda kerja pada automatic storage and retrieval system station.\n"
                     android:textColor="@color/black"
                     android:background="@color/white"
                     android:textSize="15sp"
